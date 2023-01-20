@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ethers } from 'ethers';
 import BetOnPrice from '../artifacts/contracts/BetOnprice.sol/BetOnPrice.json';
 import Homepage from './HomePage';
-//require('dotenv').config();
+require('dotenv').config();
 
 
 function Admin() {
