@@ -53,6 +53,9 @@ contract CPAMM {
             ? (token0, token1, reserve0, reserve1)
             : (token1, token0, reserve1, reserve0);
 
+        // Check that the user is not swapping more than 1% of the total supply
+        require(_amountIn <= (token0.totalSupply() / 100), "Exceeded maximum swap amount");
+
         tokenIn.transferFrom(msg.sender, address(this), _amountIn);
 
         
