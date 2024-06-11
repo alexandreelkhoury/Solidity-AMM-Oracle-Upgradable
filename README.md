@@ -2,18 +2,9 @@
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-Try running some of the following tasks:
+Le but est de ce projet est d’avoir une application permettant donc de :
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-Le but est de ce projet est d’avoir une application permettant donc :
-
-    - De parier sur l’évolution du cours d’un token dans pour une date prédéfinie.
+    - Parier sur l’évolution du cours d’un token dans pour une date prédéfinie.
     
     - Récupérer les données du cours via un oracle.
     
