@@ -1,17 +1,14 @@
 # Betting Project (Upgradable, Oracle, AMM)
 
 
-Le but est de ce projet est d’avoir une application permettant donc de :
+The goal of this project is to develop an application that allows:
 
-- Parier sur l’évolution du cours d’un token dans pour une date prédéfinie.
-    
-- Récupérer les données du cours via un oracle.
-    
-- Avoir une partie AMM permettant d’échanger le token de la plateforme contre de l’eth
-       ou btc (ou autre).
-       
-- Avoir l’implémentation d’un proxy permettant de faire évoluer le smart contract. A
-       vous de choisir celui que vous estimez le plus adéquat avec le projet.
+- Betting on the price movement of a token for a predefined date.
 
+- Fetching price data via an oracle.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+- Implementing an Automated Market Maker (AMM) for exchanging the platform's token with ETH or BTC (or other cryptocurrencies).
+
+- Implementing a proxy for upgrading the smart contract. You may choose the proxy implementation that best suits the project.
+
+This project serves as a basic use case for Hardhat. It includes a sample contract, a corresponding test, and a deployment script for that contract.
